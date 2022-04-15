@@ -3,3 +3,15 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header > h1 {
+  text-align: center;
+}
+
+/* https://stackoverflow.com/questions/11856150/center-an-image-horizontally-using-css */
+/* hmm, "display:contents" makes the image disappear */
+img.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
